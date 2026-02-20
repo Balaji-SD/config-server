@@ -3,7 +3,7 @@ spring:
     name: order-service
 
   datasource:
-    url: jdbc:mysql://localhost:3306/amazonservice   # changed from mysql → localhost
+    url: jdbc:mysql://host.docker.internal:3306/amazonservice   # changed from mysql → localhost
     username: root
     password: root
     driver-class-name: com.mysql.cj.jdbc.Driver
